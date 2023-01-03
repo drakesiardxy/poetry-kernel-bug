@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jupyter-base"
+version = "0.1.0"
+description = ""
+authors = ["Drake Siard <drake.siard@xycapitalgroup.com>"]
+readme = "README.md"
+packages = [{include = "jupyter_base"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.5.2"
+poetry-kernel = "^0.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
